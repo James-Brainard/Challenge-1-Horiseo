@@ -14,17 +14,17 @@ body {
     background-color: #2a607c;
     color: #ffffff;
 }
-
+/* */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
-
+/*This will select the seo class in the h1 heading in the header to apply the selected color to the words SEO. */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
-/*This will select the nav that is nested inside of header to properly style and float the options to the right. */
+/*This will now select the nav that is nested inside of header to properly style and float the options to the right. */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -60,7 +60,7 @@ p {
     background-size: cover;
     background-position: center;
 }
-
+/*This will float the img to the left of its container while pushing it to the left 25px from the right margin.*/
 .float-left {
     float: left;
     margin-right: 25px;
